@@ -14,7 +14,7 @@ class BratDataLoader:
         ----------------------------------------------------
         Params
             files_path: list. Path to text and annotation files without their file extension.
-                It is assumed that both files have the same nanme.
+                It is assumed that both files have the same name.
             
             binary: bool. Create one-hot encoded labels. 
                 If false, parsed_df contains the counts of each entity per document.
